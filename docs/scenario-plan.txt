@@ -13,3 +13,27 @@ Cutscene 3:
 Scenario 4:
 
 Epilogue:
+
+current northerners lineup:
+
+Orcish Grunt -> Orcish Warrior -> Orcish Warlord -> Orcish High Warlord
+             \-> Orcish Marauder -> Orcish Subjugator
+
+Orcish Serf -> Orcish Fireline -> Orcish Firebreather
+            \-> Orcish Foreman -> Orcish Overseer
+
+Orcish Slinger -> Orcish Hunter -> Orcish Stalker
+
+Orcish Assassin -> Orcish Slayer -> Orcish Nightblade
+
+Orcish Archer -> Orcish Crossbowman -> Orcish Slurbow
+
+Orcish Shaman -> Orcish Warlock -> Orcish Sorcerer
+
+Wolf Rider -> Goblin Knight -> Direwolf Rider
+            \-> Goblin Pillager -> Goblin Cutthroat
+
+Goblin Cavalry -> Goblin Lancer -> Goblin Hellwolf Rider
+
+Goblin Spearman -> Goblin Impaler -> Goblin Spearmaster
+                \-> Goblin Rouser -> Goblin Trumpeter -> Goblin Chieftain
