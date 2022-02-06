@@ -235,16 +235,16 @@ local function final_spawn()
 	place_units(types, spawn.x, spawn.y)
 end
 
--- convert all 'veteran' units from side 2 to the more aggressive side 1
+-- convert all 'veteran' units from side 4 to the more aggressive side 3
 -- this must happen before the new units are created from spawns.
 on_event("new turn", function()
-	for i, unit in ipairs(wesnoth.units.find_on_map { side = 2 }) do
-		unit.side = 1
+	for i, unit in ipairs(wesnoth.units.find_on_map { side = 4 }) do
+		unit.side = 3
 	end
 end)
 
 on_event("prestart", function()
-	local leaders = wesnoth.units.find_on_map { side = "3,4", canrecruit= true}
+	local leaders = wesnoth.units.find_on_map { side = "1,2", canrecruit= true}
 	if #leaders < 2 then
 		create_timed_spawns(5, 11, 50, 5, 4, 21)
 	else
@@ -286,7 +286,7 @@ on_event("new turn", function()
 	final_spawn()
 	wesnoth.scenario.turns = wesnoth.current.turn + 12
 	wesnoth.wml_actions.message {
-		side="3,4",
+		side="1,2",
 		canrecruit=true,
 		message= _ "The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious.",
 	}
@@ -308,7 +308,7 @@ on_event("die", function()
 	if wesnoth.current.turn < wml.variables["final_turn"] then
 		return
 	end
-	if wesnoth.wml_conditionals.have_unit { side = "1,2"} then
+	if wesnoth.wml_conditionals.have_unit { side = "3,4"} then
 		return
 	end
 	wesnoth.wml_actions.music {
