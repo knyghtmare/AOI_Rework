@@ -203,7 +203,7 @@ end
 -- @a x,y: the location where to spawn the units on the map.
 local function place_units(unittypes, x, y)
 	for i,v in ipairs(unittypes) do
-		local u = wesnoth.units.create { type = v, generate_name = true, side = 2 }
+		local u = wesnoth.units.create { type = v, generate_name = true, side = 4 }
 		-- give the unit less moves on its first turn.
 		u.status.slowed = true
 		u:add_modification("object", {
@@ -336,9 +336,9 @@ on_event("prestart", function()
 		return res
 	end
 	wml.array_access.set("fixed_spawn", {
-		fixed_spawn(1, 15, "Fire Dragon", "Gryphon Master", "Hurricane Drake"),
-		fixed_spawn(5, 1, "Yeti", "Elvish Druid", "Elvish Druid"),
-		fixed_spawn(1, 7, "Lich", "Walking Corpse", "Walking Corpse", "Walking Corpse", "Ghoul", "Soulless", "Walking Corpse", "Walking Corpse", "Walking Corpse"),
-		fixed_spawn(11, 15, "Elvish Champion", "Dwarvish Stalwart", "Dwarvish Stalwart", "Orcish Slayer"),
+		fixed_spawn(1, 15, "Goblin Cutthroat", "Direwolf Rider", "Direwolf Rider"),
+		fixed_spawn(5, 1, "Orcish High Warlord", "Orcish Nightblade", "Orcish Nightblade"),
+		fixed_spawn(1, 7, "Orcish Sorcerer", "Goblin Impaler", "Goblin Impaler", "Goblin Impaler", "Young Ogre", "Goblin Chieftain", "Goblin Impaler", "Goblin Impaler", "Goblin Impaler"),
+		fixed_spawn(11, 15, "Great Troll", "Orcish Marauder", "Orcish Fireline", "Orcish Slayer"),
 	})
 end)
