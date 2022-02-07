@@ -357,3 +357,27 @@ on_event("prestart", function()
 		fixed_spawn(11, 15, "Great Troll", "Orcish Marauder", "Orcish Fireline", "Orcish Nightblade"),
 	})
 end)
+
+-- add start event
+on_event("start", function()
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message = _ "<i>(Looks over the vast waters plunged into the darkness of hundreds of enemy ships mooring to the rocky shores)</i>",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message = _ "<i>(There is peace in his heart as if he poured out all his regret last night and he no longer feels afraid of meeting the inevitable death)</i>",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message = _ "<i>(Orcs who come out of their ships begin to climb towards him, and he only kisses the ring which were his gift from the lady of heart, returning her that kiss from the days before)</i>",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message = _ "<i>(With confidence written on his calm face, he draws his sword from the scabbard and looks at his companions one last time before this last march)</i>",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message = _ "<i>(He puts his golden helmet on his head and, holding his sword to his chest, he rushes fearlessly into impenetrable darkness carrying his thunderous battle hymn, which leads the Irdya Elves to fight one last time, and around them shone the golden glow of the pure light of the Wesmere heir's soul that will be their guide for the last time to fight the beasts born to hate)</i>",
+	}
+end)
