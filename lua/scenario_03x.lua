@@ -87,6 +87,6 @@ on_event("start", function()
         carryover_report = "no",
         linger_mode = "no",
         replay_save = "no",
-        carryover_percentage = "0",
+        carryover_percentage = 0,
 	}
 end)
