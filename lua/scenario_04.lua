@@ -264,12 +264,27 @@ on_event("new turn", function()
 		return
 	end
 	wml.variables["timed_spawn[0]"] = nil
+	-- wave 1
 	local unit_types = get_spawn_types(next_spawn.units, next_spawn.gold, random_spawns[next_spawn.pool_num])
 	local spawn_areas = {{"15", "4"}, {"39", "42"}, {"28", "4"}, {"54", "2"}, {"66", "2"}, {"74", "16"}, {"73", "44"}, {"48", "43"}, {"75", "6"}, {"61", "43"}}
 	local spawn_area = spawn_areas[mathx.random(#spawn_areas)]
 	local locations_in_area = wesnoth.map.find { x = spawn_area[1], y = spawn_area[2], radius=1, include_borders=false }
 	local chosen_location = locations_in_area[mathx.random(#locations_in_area)]
 	place_units(unit_types, chosen_location[1], chosen_location[2])
+	-- wave 2
+	local unit_types2 = get_spawn_types(next_spawn.units, next_spawn.gold, random_spawns[next_spawn.pool_num])
+	local spawn_areas2 = {{"15", "4"}, {"39", "42"}, {"28", "4"}, {"54", "2"}, {"66", "2"}, {"74", "16"}, {"73", "44"}, {"48", "43"}, {"75", "6"}, {"61", "43"}}
+	local spawn_area2 = spawn_areas2[mathx.random(#spawn_areas2)]
+	local locations_in_area2 = wesnoth.map.find { x = spawn_area2[1], y = spawn_area2[2], radius=1, include_borders=false }
+	local chosen_location2 = locations_in_area2[mathx.random(#locations_in_area2)]
+	place_units(unit_types2, chosen_location2[1], chosen_location2[2])
+	-- wave 3
+	local unit_types3 = get_spawn_types(next_spawn.units, next_spawn.gold, random_spawns[next_spawn.pool_num])
+	local spawn_areas3 = {{"15", "4"}, {"39", "42"}, {"28", "4"}, {"54", "2"}, {"66", "2"}, {"74", "16"}, {"73", "44"}, {"48", "43"}, {"75", "6"}, {"61", "43"}}
+	local spawn_area3 = spawn_areas3[mathx.random(#spawn_areas3)]
+	local locations_in_area3 = wesnoth.map.find { x = spawn_area3[1], y = spawn_area3[2], radius=1, include_borders=false }
+	local chosen_location3 = locations_in_area3[mathx.random(#locations_in_area3)]
+	place_units(unit_types3, chosen_location3[1], chosen_location3[2])
 end)
 
 -- on turn 'final_turn' the first 'final spawn' appears
