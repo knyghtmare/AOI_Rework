@@ -265,7 +265,7 @@ on_event("new turn", function()
 	end
 	wml.variables["timed_spawn[0]"] = nil
 	local unit_types = get_spawn_types(next_spawn.units, next_spawn.gold, random_spawns[next_spawn.pool_num])
-	local spawn_areas = {{"3-14", "15"}, {"1", "4-13"}, {"2-13", "1"}, {"1", "2-15"}}
+	local spawn_areas = {{"15", "4"}, {"39", "42"}, {"28", "4"}, {"54", "2"}, {"66", "2"}, {"74", "16"}, {"73", "44"}, {"48", "43"}, {"75", "6"}, {"61", "43"}}
 	local spawn_area = spawn_areas[mathx.random(#spawn_areas)]
 	local locations_in_area = wesnoth.map.find { x = spawn_area[1], y = spawn_area[2], radius=1, include_borders=false }
 	local chosen_location = locations_in_area[mathx.random(#locations_in_area)]
