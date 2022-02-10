@@ -344,7 +344,7 @@ on_event("die", function()
 	}
 end)
 
--- initilize the 'fixed_spawn' and 'main_spawn'
+-- initialize the 'fixed_spawn' and 'main_spawn'
 on_event("prestart", function()
 	local fixed_spawn = function(x, y, ...)
 		local res = { x = x, y = y }
