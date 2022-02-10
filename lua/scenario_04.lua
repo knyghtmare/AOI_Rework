@@ -332,12 +332,15 @@ on_event("die", function()
 		immediate = true,
 	}
 	wesnoth.wml_actions.message {
-		speaker = "narrator",
-		message = _"The screams and pleas for mercy are finally silenced, as you remove your blood soaked blade from the last of the rebels. There will be no more resistance from the local scum. Your reign has finally earned stability.",
-		image ="wesnoth-icon.png",
+		speaker = "Erlornas",
+		message = _"I no longer feel the slightest spark of strength in my wounded body. My legs refuse to obey me and, falling to the ground, I cannot even turn my head to look at the horizon. Hands, as if poured from the heaviest lead alloys, cling to the yellow grass burnt from the torch and sun, soaked with the scent of the blood of my enemies. I try to move my fingers but to no avail. Before my eyes lies the bodies of my most faithful friends, without the old warmth, smiles or tears. Until recently, during the flower festival, their faces were bursting with joy, blushing or crying with happiness, and now … Nothing … They have no expression … They are all dead. I feel like my eyes are getting wet, it seems to me that I can see through the thick mist all my relatives, the most precious persons for me, being my white diamonds, stones shining with the glow of night stars, pearls of bygone days that fall from a stormy sky being one of the many drops that comes down to crash into hard ground. I think I can feel the spring rain slowly dripping onto my cooling face. I feel like I'm losing my sight, like there's nothing I can do to stop it, even though I haven't done my task yet. I can't die yet … No, I keep telling myself. I can already feel my heart freezing, but unexpectedly time immediately stops, when someone warmth, which I have loved so much, touches my so far unresponsive almost dead hand. The warmth of a person who is like my own family to me, my only sister. For a moment my gaze lit up as if someone had let me look ahead once more and I saw ... Sunllis, who touched my hand with the last of her strength and muttered something, but I'm not sure what, however I think it was - Don't be scared ... I'm with you … We all … After that I plunged back into the shadow, but I felt like through the thick veil tears running down my pale cheeks. My last words inside me were - I love you all, I love you and I am thankful for this love … Pearls of days gone by fall from the stormy sky as spring rain comes.",
 	}
 	wesnoth.wml_actions.endlevel {
 		result = "victory",
+		linger_mode = "no",
+		carryover_report = "no",
+		bonus = "no",
+		carryover_percentage = 0,
 	}
 end)
 
