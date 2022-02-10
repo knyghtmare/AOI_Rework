@@ -145,6 +145,6 @@ on_event("enemies defeated",function()
         bonus = "no",
         carryover_report = "no",
         linger_mode = "yes",
-        carryover_percentage = "0",
+        carryover_percentage = 0,
     }
 end)
