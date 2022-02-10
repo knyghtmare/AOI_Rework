@@ -339,7 +339,7 @@ on_event("die", function()
 		result = "victory",
 		linger_mode = "no",
 		carryover_report = "no",
-		bonus = "no",
+		bonus = 0,
 		carryover_percentage = 0,
 	}
 end)

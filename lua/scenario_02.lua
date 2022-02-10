@@ -142,7 +142,7 @@ on_event("enemies defeated",function()
     }
     wesnoth.wml_actions.endlevel {
         result = "victory",
-        bonus = "no",
+        bonus = 0,
         carryover_report = "no",
         linger_mode = "yes",
         carryover_percentage = 0,
