@@ -19,7 +19,9 @@ on_event("start", function()
         speaker = "Erlornas",
         message = _ "<i>(Finally he wipes his tears and, leaning against the tree trunk, looking at the faces of his companions mumble)</i> This is the end, even I am unable to see hope and terror has filled my heart.",
     }
-    -- TODO: make Sunllis move next to Erlornas
+
+    wesnoth.put_unit(15, 13, wesnoth.get_units({ side = 2, canrecruit = true })[1])
+
     wesnoth.wml_actions.message {
         speaker = "Sunllis",
         message = _ "<i>(Walks up to him)</i> As soon as you see a shadow around you, look at the high sky and see the glow of hope that will remain with you forever ...",
@@ -83,7 +85,7 @@ on_event("start", function()
     -- end the cutscene
     wesnoth.wml_actions.endlevel {
 		result = "victory",
-        bonus = "no",
+        bonus = 0,
         carryover_report = "no",
         linger_mode = "no",
         replay_save = "no",
