@@ -20,7 +20,7 @@ on_event("start", function()
         message = _ "<i>(Finally he wipes his tears and, leaning against the tree trunk, looking at the faces of his companions mumble)</i> This is the end, even I am unable to see hope and terror has filled my heart.",
     }
 
-    wesnoth.units.to_map(15, 13, wesnoth.units.get({ side = 2, canrecruit = true })[1])
+    wesnoth.units.to_map(15, 13, wesnoth.units.get({ id = "Sunllis" })[1])
 
     wesnoth.wml_actions.message {
         speaker = "Sunllis",
