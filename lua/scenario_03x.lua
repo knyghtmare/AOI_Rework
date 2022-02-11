@@ -20,7 +20,9 @@ on_event("start", function()
         message = _ "<i>(Finally he wipes his tears and, leaning against the tree trunk, looking at the faces of his companions mumble)</i> This is the end, even I am unable to see hope and terror has filled my heart.",
     }
 
-    wesnoth.units.to_map(15, 13, wesnoth.units.get({ id = "Sunllis" })[1])
+    -- the comments on the wiki said this would "move" the unit
+    -- not a teleport... :(
+    wesnoth.units.find_on_map({ id = "Sunllis" })[1]:to_map(15, 13)
 
     wesnoth.wml_actions.message {
         speaker = "Sunllis",
