@@ -300,10 +300,30 @@ on_event("new turn", function()
 	}
 	final_spawn()
 	wesnoth.scenario.turns = wesnoth.current.turn + 12
+
 	wesnoth.wml_actions.message {
-		side="1,2",
-		canrecruit=true,
-		message= _ "The last and most powerful of these creatures are almost upon us. I feel that if we can finish them off in time, we shall be victorious.",
+		speaker = "Erlornas",
+		message= _ "Black swords, eyes full of hatred, hands crushing everything what comes across - a sight that would terrify many heroes going to battle, not one hunter hunting wild game.",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message= _ "The last wave is approaching, like the seas hitting the shore with foam, and we will be the boulders that will separate it from the dry land ... I can feel it when I see the largest of our enemies' boats, which, mooring on the shore, smash the old haven.",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Sunllis",
+		message= _ "All of them are heavily armed veterans, slayers, and future shadow race commanders emerging from the decks. Their wrath is terrible.",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message= _ "Now, when I see them marching towards us, these untamed cattle, I feel it's time to start the last march that will decide the future of our loved ones!",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message= _ "Today we will die, it is true, but we will not die at the hands of these beasts, but by honorably fulfilling our duty to the end!",
+	}
+	wesnoth.wml_actions.message {
+		speaker = "Erlornas",
+		message= _ "Certain death awaits us, but it will be death that will decide the future of these lands! This is where history is written, this is where we will win against the darkness of the night once and for all! We will blind the shadow and enter the throat of this abomination, gutting it from the inside, so that it will never again raise its head from above its filthy burrow! Fight, sons and daughters of Wesmere, fight to finish this!",
 	}
 
 	wml.variables["next_final_spawn"] = wesnoth.current.turn + mathx.random(1,2)
