@@ -3,3 +3,4 @@ Changelog v0.1.0
 --> all scenarios playable
 
 v0.1.1
+--> Moved default difficulty to story mode
