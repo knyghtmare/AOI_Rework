@@ -374,10 +374,11 @@ on_event("prestart", function()
 		return res
 	end
 	wml.array_access.set("fixed_spawn", {
-		fixed_spawn(1, 15, "Goblin Cutthroat", "Direwolf Rider", "Direwolf Rider"),
-		fixed_spawn(5, 1, "Orcish High Warlord", "Orcish Nightblade", "Orcish Nightblade"),
-		fixed_spawn(1, 7, "Orcish Sorcerer", "Goblin Impaler", "Goblin Impaler", "Goblin Impaler", "Ogre", "Goblin Chieftain", "Goblin Impaler", "Goblin Impaler", "Goblin Impaler"),
-		fixed_spawn(11, 15, "Great Troll", "Orcish Marauder", "Orcish Fireline", "Orcish Nightblade"),
+		fixed_spawn(13,  4, "Goblin Cutthroat", "Direwolf Rider", "Direwolf Rider"),
+		fixed_spawn(12, 39, "Orcish High Warlord", "Orcish Nightblade", "Orcish Nightblade"),
+		fixed_spawn(73, 43, "Orcish Sorcerer", "Goblin Impaler", "Goblin Impaler", "Goblin Impaler", "Ogre", "Goblin Chieftain", "Goblin Impaler", "Goblin Impaler", "Goblin Impaler"),
+		fixed_spawn(74,  4, "Great Troll", "Orcish Marauder", "Orcish Fireline", "Orcish Nightblade"),
+		fixed_spawn(54,  2, "Saurian Warden", "Saurian Seer", "Saurian Prophet", "Saurian Prophet"),
 	})
 end)
 
