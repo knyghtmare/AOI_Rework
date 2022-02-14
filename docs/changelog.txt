@@ -5,3 +5,6 @@ Changelog v1.0.0
 v1.0.1
 --> Moved default difficulty to story mode
 --> Corrected a bug in Prologue
+
+v1.0.2
+--> Some story text corrections
