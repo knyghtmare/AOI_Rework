@@ -1,6 +1,7 @@
-Changelog v0.1.0
+Changelog v1.0.0
 --> initial version
 --> all scenarios playable
 
-v0.1.1
+v1.0.1
 --> Moved default difficulty to story mode
+--> Corrected a bug in Prologue
