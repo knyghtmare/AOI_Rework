@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-02-14 06:55 UTC\n"
+"POT-Creation-Date: 2022-02-14 08:27 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -526,447 +526,447 @@ msgid "Follow me."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:146
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:142
 msgid "They enter the meeting room of three of the four noble lords who let one of their greatest enemies settled into the continent eight years ago."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:148
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:144
 msgid "So I see that another council has been started, what's this time, what are your plans? Maybe starting some war will suppress the unrest among the people, and a little conflict will add some faith in useless Lords?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:150
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:146
 msgid "How dare you enter these chambers uninvited! Only the introduction here are those who are chosen by the people to exercise their power."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:152
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:148
 msgid "You do not decide about it, and I do not even dare to pronounce your name, for I will bring disgrace upon myself as you are smeared with it."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:154
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:150
 msgid "You attack and insult by judging for some imaginary crimes! That's it, there is no place for you in these lands!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:156
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:152
 msgid "Imaginary? Do I have to remind everyone about how you won the victory in the North years ago?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:158
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:154
 msgid "End of this!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:160
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:156
 msgid "It was late fall and the conflict erupted unexpectedly."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:162
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:158
 msgid "Rumors were spreading that on the borders there were dwarven bandits and robbers invading the country, and our brave Lord led his army to a small town called the Silver Boulder because valuable metal was mined there since time immemorial, but the army almost did not have and it required protection from others."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:164
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:160
 msgid "The fight of the brave commander standing here lasted for a week, and the inhabitants once being our allies became fugitives, not enough good news, yet another conflict broke out, which was associated with further deaths! (He ended up hitting the table with his fist)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:166
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:162
 msgid "Baseless slander, this story is well known and needs no explanation."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:168
-msgid "I know more such stories because I have followed your movements for a long time, and the wicked deeds you have done are visible to the nake0d eye."
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:164
+msgid "I know more such stories because I have followed your movements for a long time, and the wicked deeds you have done are visible to the naked eye."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:170
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:166
 msgid "What are you going to do now? Make us leave the forests? Are you really incapable of comprehending your situation, heir of Wesmere?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:172
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:168
 msgid "You have never even presented a proof of your origin, and you have yourself made his son, and sometimes even a king."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:174
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:170
 msgid "It is truly regrettable to desire so desperately for power that is not yours."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:176
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:172
 msgid "I have never wanted it, but you attract me to it, because if someone poisons my own country, it is my duty to get rid of the pest!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:178
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:174
 msgid "You really are starting to bore me Erlornas, you hid your envy towards us for a long time, when we removed your father from office and appointed a new Lord."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:180
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:176
 msgid "Don't you dare to even mention his name because it would be an insult to me! You who sent him to a distant province, when he wanted to start introducing new fair rules."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:182
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:178
 msgid "He was mad and he wanted to restore the royal rule by shouting about some heir who you were supposed to be, and to confirm his words he only had the predictions of some witch banished years ago for spreading lies about the world, so do not embarrass yourself because of your naivety, child, and we will give you a chance again to go away."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:184
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:180
 msgid "No, this is taking too long, we have to deal finally with this revolutionary reprobate. And as you have already recalled the memory of the old hag who, before taking away her healthy name, Selite was called, see who we have here, the daughter and heir of her mother's madness. Perhaps you have something to say, my dear child. (Looks at Sunllis)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:186
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:182
 msgid "You are not worthy to hear anything from my lips, elf with reptilian gaze and dragon greed!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:188
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:184
 msgid "Erlornas, do what we have to do, and let's not look at these creatures even unworthy of my hatred."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:190
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:186
 msgid "Well, I wanted to have a little fun with them, but you are right to get rid of them right away. (He draws his sword pointing at one of his enemies)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:192
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:188
 msgid "You are surrounded and the support will not come, do you have something to defend yourself?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:194
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:190
 msgid "And what do you want to do? Kill me and the rest and sign your own sentence?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:196
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:192
 msgid "Get hold of yourself! Your father would never do that!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:198
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:194
 msgid "Unfortunately ... because you took this hope from him a long time ago, but I do not hesitate and I will not give up until I hear that you will leave the forests of my ancestors and that you will never come back!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:200
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:196
 msgid "We will never say something like that because we have always been guided by the truth and goodness for our nation!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:202
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:198
 msgid "I am waiting for reply!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:204
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:200
 msgid "Don't you dare to say anything if he wants power so much, let him show us his true side!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:206
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:202
 msgid "If you really count on support this is only a short dream and futile prayer."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:208
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:204
 msgid "We will not agree to these conditions!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:223
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:219
 msgid "Suddenly there was a clash of swords from the entrance to the castle, and the last of the lords entered the room."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:239
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:235
 msgid "Lower the sword or your faithful companions will lose their lives!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:241
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:237
 msgid "Several soldiers came in, wielding Wesmere descendant comrades under the sword, and immediately surrounded the rest of the rebels."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:254
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:250
 msgid "Forgive us, prince ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:267
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:263
 msgid "I say one last time, lower your sword or there will be blood today!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:269
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:265
 msgid "<i>(Nervous once, he looked one way and the other, assessing his chances, but not wanting to risk his friends lives, he finally lowered his sword)</i> You can talk and do what you want with me, but I will not leave my people in need! <i>(He stares menacingly into the eyes of the newly arrived liberator of the Lords, and the other, terrified for a moment, finally snatching the sword from his hand, said)</i>"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:271
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:267
 msgid "For high treason and an attempted of assassination on the three guardians of the race, you will face a trial that will solve your problem forever!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:310
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:306
 msgid "What do you intend to kill me? However, know that your anger is not terrible to me and even in the face of death I am not afraid to talk about goodness and things that you have not even dreamed of because, plunged in your nightmares, you didn't ever care for those who lived under you and sent them on numerous wars making from them only leaves thrown on the silent wind, which, falling, made a way for you to your own pride ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:312
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:308
 msgid "Despite the shackles and an almost sealed fate, you still have a tongue to tell your lies and spread hate around?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:314
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:310
 msgid "If I am spreading the lies and hatred around, what are you our great representatives?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:316
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:312
 msgid "Something you would never do, an elf in love with his ideals, which fraternize with madness, and complement with courage."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:318
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:314
 msgid "And what to do with you now Erlornas, our great heir to the throne that does not exist? Or should we now bow to you in tribute as a fallen monarch who, through bloodshed, wanted to make a difference?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:320
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:316
 msgid "No more jokes, it's time to agree on his fate as the leader of this whole rabble, which is the only one in this beautiful country governed by the law, gone mad and did not want to give us peace and finally like a mouse caught by its tail, pulled out let itself be caught and now its leader is kneeling in front of us, still chattering like a wild dog."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:322
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:318
 msgid "So far I spit on any of your accusations and I am not afraid because to be afraid you have to feel fear, not only contempt!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:324
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:320
 msgid "I can't even become angry when I hear these howls and whines, but I only feel sorry that such a black sheep yells at us here."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:326
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:322
 msgid "Well, now to the heart of the matter, what are the judgments you give?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:328
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:324
 msgid "For me, the death of him and that gang would be the best solution, but our law prohibits it, which is a pity."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:330
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:326
 msgid "Hold your anger, I think the best solution is simply exile."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:332
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:328
 msgid "But where to?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:334
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:330
 msgid "To the north as a prisoner with his company and with the chains in the wild."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:336
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:332
 msgid "To the north, I agree, but more kindly, at least for the time being, and leave them free in the care of the mountains and forests."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:338
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:334
 msgid "I like this solution, but what if they come back?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:340
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:336
 msgid "Then we will invent other recipes for him, but for now all agree?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:342
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:338
 msgid "The verdict was about to be approved, but a messenger burst into the chamber, who had just come down from the horse carrying the message, he stuttered terribly and only after a while he said to the Lords ears."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:376
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:372
 msgid "Savage beasts that follow animality and are no strangers to sinister deeds are coming!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:378
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:374
 msgid "What are you talking about here?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:380
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:376
 msgid "Monsters from overseas who fought with people and chased away a new place, they looked for and found in our poor havens!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:382
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:378
 msgid "Are you talking about ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:384
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:380
 msgid "Orcs, so bright lady! The demons of the night that have already appeared and enslaved the innocent, now they make their way through our green forests, sneaking in the fog and not sparing anyone!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:387
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:383
 msgid "By the gods of the most holy light! These creatures should have been dead a long time ago on the beaches of people, which are still red today from that memorable battle where they suffered failure."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:389
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:385
 msgid "What are we doing now? Can this news be trusted?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:391
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:387
 msgid "I saw and watched their arrows as I ran away in front of them to bring the message to you."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:393
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:389
 msgid "Really terrible news, so the war is calling, but it will take time to get troops here."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:395
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:391
 msgid "Has the enemy already invaded our territory?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:397
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:393
 msgid "No, it was only on the green borders that his first sightings were seen, but apparently among the elves and people one hears about the horde as far as our shores are still being heard."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:399
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:395
 msgid "Well, what now ... You can leave now, but wait nearby because we may still need your testimony."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:401
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:397
 msgid "(Turns to the other board members) Now what? The enemy took us by surprise, and we have no real defense here."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:403
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:399
 msgid "The nearest branches are in the eastern provinces after the recent riots caused by you know who."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:405
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:401
 msgid "It is not a coincidence that the nation is rebelling today, it is all a conspiracy planned for years, is it not Erlornas?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:407
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:403
 msgid "You can accuse me of whatever you like, but the truth is only known to me and I am not going to share it with someone like you."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:409
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:405
 msgid "Cheeky! I really have enough of it!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:411
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:407
 msgid "I guess I think I've come up with a simple solution to our problem here or even two, can I speak?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:413
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:409
 msgid "What do you mean?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:415
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:411
 msgid "We need to gather troops to save the whole defenseless country, the end of which is almost written in the face of evil that may meet at any moment, but ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:417
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:413
 msgid "Let the one who led to this redeem himself by going along with his so-called squad to stop the dark forces."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:419
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:415
 msgid "I disagree! You know well and I don't think I need to explain it to you, Lord, the law prohibits executions on convicts."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:421
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:417
 msgid "... But it's nothing like that, he and his group will get a month's punishment for their deeds, only one, and when they complete their task they will be able to return home, isn't that a good solution?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:423
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:419
 msgid "Hmm ... A month of fighting at the front is not an easy task and a feat worthy of whole songs, I agree to this proposal."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:425
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:421
 msgid "I don't mind either."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:427
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:423
 msgid "Since that is the will of the council, but I never thought that I would live to a day when the death sentences would be issued."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:429
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:425
 msgid "What does a condemned man have to say?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:431
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:427
 msgid "For the years of his deeds against us, he should not be given a voice, but let him speak."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:433
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:429
 msgid "I'm sure the heir to the throne of Wesmere, himself can't leave a people doomed to suffer on their own, can they?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:435
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:431
 msgid "And that you will know! I will not leave them and help with my own body, death is not scary to me as long as I fight for what is right, because when the war goes on, the protectors of the nation stand on the battlefield!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:437
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:433
 msgid "So it's all settled, take him and hand them over the weapons, they leave in three days at the earliest. (Erlornas is escorted but a voice stops him)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:439
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:435
 msgid "And one more thing ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:441
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:437
 msgid "There are warriors on the battlefield, not Lords."
 msgstr ""
 
@@ -1695,6 +1695,11 @@ msgstr ""
 msgid "Retreat to the woods! The children of the dark have called for reinforcements, we have failed!"
 msgstr ""
 
+#. [event]
+#: AOI_Rework/macros/dialogue/scenario-two.cfg:51
+msgid "You may find some assistance from nearby elves if you investigate elven villages."
+msgstr ""
+
 #: AOI_Rework/macros/scenario-utils/character-deaths.cfg:17
 msgid "My life path so far is blurring before my eyes ... Beloved, I have finally seen you again ... (He has tears in eyes)"
 msgstr ""
@@ -2030,15 +2035,15 @@ msgstr ""
 
 #. [objective]: condition=lose
 #: AOI_Rework/macros/scenario-utils/utils.cfg:12
-#: AOI_Rework/macros/scenario-utils/utils.cfg:296
-#: AOI_Rework/macros/scenario-utils/utils.cfg:335
+#: AOI_Rework/macros/scenario-utils/utils.cfg:297
+#: AOI_Rework/macros/scenario-utils/utils.cfg:337
 msgid "Death of Erlornas"
 msgstr ""
 
 #. [objective]: condition=lose
 #: AOI_Rework/macros/scenario-utils/utils.cfg:16
-#: AOI_Rework/macros/scenario-utils/utils.cfg:300
-#: AOI_Rework/macros/scenario-utils/utils.cfg:339
+#: AOI_Rework/macros/scenario-utils/utils.cfg:301
+#: AOI_Rework/macros/scenario-utils/utils.cfg:341
 msgid "Death of Sunllis"
 msgstr ""
 
@@ -2093,69 +2098,69 @@ msgid "We must protect her, keep these monsters away and do not even dare go one
 msgstr ""
 
 #. [floating_text]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:243
+#: AOI_Rework/macros/scenario-utils/utils.cfg:244
 msgid "Chanting"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:272
+#: AOI_Rework/macros/scenario-utils/utils.cfg:273
 msgid "What are those noises, was there can be any support for these soft little ones coming!?"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:274
+#: AOI_Rework/macros/scenario-utils/utils.cfg:275
 msgid "No ... It rumbles in my ears ...!"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:276
+#: AOI_Rework/macros/scenario-utils/utils.cfg:277
 msgid "And I see the treetops moving towards us, carrying white fire with them!"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:278
+#: AOI_Rework/macros/scenario-utils/utils.cfg:279
 msgid "The spirits have responded to our call and want to show their sorrow to the orcs who, in the panic, are already looking for escape."
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:280
+#: AOI_Rework/macros/scenario-utils/utils.cfg:281
 msgid "Now we will launch the final assault on the wicked enemy, let their hearts tremble!"
 msgstr ""
 
 #. [objective]: condition=win
-#: AOI_Rework/macros/scenario-utils/utils.cfg:292
+#: AOI_Rework/macros/scenario-utils/utils.cfg:293
 msgid "Defeat all enemy leaders"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/utils.cfg:312
+#: AOI_Rework/macros/scenario-utils/utils.cfg:313
 msgid "You cursed elf ... (Tries to catch his killer)"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/utils.cfg:316
+#: AOI_Rework/macros/scenario-utils/utils.cfg:317
 msgid "My eyes are flooded with black ... I don't want to die! No...!"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/utils.cfg:320
+#: AOI_Rework/macros/scenario-utils/utils.cfg:321
 msgid "I am dying surrounded by devilish light ...!"
 msgstr ""
 
 #. [objective]: condition=win
-#: AOI_Rework/macros/scenario-utils/utils.cfg:331
+#: AOI_Rework/macros/scenario-utils/utils.cfg:333
 msgid "Find and defeat the High Warlord"
 msgstr ""
 
 #. [note]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:345
+#: AOI_Rework/macros/scenario-utils/utils.cfg:347
 msgid "Try to free some prisoners to get them as allies"
 msgstr ""
 
 #. [objective]: condition=win
-#: AOI_Rework/macros/scenario-utils/utils.cfg:362
+#: AOI_Rework/macros/scenario-utils/utils.cfg:364
 msgid "Survive as long as possible."
 msgstr ""
 
 #. [note]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:367
+#: AOI_Rework/macros/scenario-utils/utils.cfg:369
 msgid "Right-Click to view a Hint"
 msgstr ""
 
@@ -2579,12 +2584,12 @@ msgid "Elvish Poet"
 msgstr ""
 
 #. [unit_type]: id=Elvish Poet, race=elf
-#: AOI_Rework/units/sylvans/Poet.cfg:23
-msgid "Fable Lake might give description here?"
+#: AOI_Rework/units/sylvans/Poet.cfg:25
+msgid "An adventuring bard from a faraway land."
 msgstr ""
 
 #. [attack]: type=impact
-#: AOI_Rework/units/sylvans/Poet.cfg:30
+#: AOI_Rework/units/sylvans/Poet.cfg:32
 msgid "ensnare"
 msgstr ""
 
