@@ -16,3 +16,4 @@ v1.0.3
 v1.0.4
 --> new campaign icon
 --> MP mode: XP buff
+--> S4: some hint text added 
