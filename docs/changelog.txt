@@ -17,3 +17,8 @@ v1.0.4
 --> new campaign icon
 --> MP mode: XP buff
 --> S4: some hint text added 
+
+v1.0.5
+--> cleaner optimisation with WoL
+    --> note: WoL v1.2.7.9 is now a minimum requirement
+    --> as it has the new campaign.cfg file
