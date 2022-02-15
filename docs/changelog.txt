@@ -12,3 +12,6 @@ v1.0.2
 
 v1.0.3
 --> Fixed an MP-mode only bug
+
+v1.0.4
+--> new campaign icon
