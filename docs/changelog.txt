@@ -22,3 +22,6 @@ v1.0.5
 --> cleaner optimisation with WoL
     --> note: WoL v1.2.7.9 is now a minimum requirement
     --> as it has the new campaign.cfg file
+
+v1.0.6
+--> Merged two teams only on SP mode, MP mode unaffected
