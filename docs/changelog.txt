@@ -26,3 +26,4 @@ v1.0.5
 v1.0.6
 --> Merged two teams only on SP mode, MP mode unaffected
 --> add story map tracking for scenarios and cutscenes
+--> using a pop-up window for help messages
