@@ -31,3 +31,7 @@ v1.0.6
 --> S1: fixed a bug reported by Konrad2
 --> add new tailendos and aranel to the party
     --> might reduce or alter difficulty
+
+v1.0.6.1
+--> Fixed shroud and fog for side 2 bug in SP 
+--> All side units are unrenamable now.
