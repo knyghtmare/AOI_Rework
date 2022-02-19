@@ -80,15 +80,15 @@ function wesnoth.wml_actions.transient_message(cfg)
 	local message = cfg.message
 	if message == nil then message = "" end
 
-	local function preshow()
-		wesnoth.set_dialog_value(caption, "caption")
-		wesnoth.set_dialog_value(message, "message")
-		wesnoth.set_dialog_markup(true, "message")
+	local function preshow(dialog)
+		dialog.caption.label = cfg.caption or "caption"
+		dialog.message.label = cfg.message or "message"
+		dialog.use_markup = true
 
 		if cfg.image ~= nil and tostring(cfg.image):len() > 0 then
-			wesnoth.set_dialog_value(cfg.image, "image")
+			dialog.image.label = cfg.image or "image"
 		else
-			wesnoth.set_dialog_visible(false, "image")
+			dialog.visible = false
 		end
 	end
 
