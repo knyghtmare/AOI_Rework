@@ -29,3 +29,5 @@ v1.0.6
 --> using a pop-up window for help messages
 --> S2: a new hint message
 --> S1: fixed a bug reported by Konrad2
+--> add new tailendos and aranel to the party
+    --> might reduce or alter difficulty
