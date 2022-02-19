@@ -20,7 +20,7 @@ local T = wml.tag
 -- [/transient_message]
 ---
 function wesnoth.wml_actions.transient_message(cfg)
-	local dd = {
+	local transient_message_widget = {
 		maximum_width = 800,
 		maximum_height = 600,
 		click_dismiss = true,
@@ -72,7 +72,7 @@ function wesnoth.wml_actions.transient_message(cfg)
 	if transparent == nil then transparent = true end
 
 	if transparent then
-		dd.definition = "message"
+		transient_message_widget.definition = "message"
 	end
 
 	local caption = cfg.caption
@@ -95,5 +95,5 @@ function wesnoth.wml_actions.transient_message(cfg)
 	local sound = cfg.sound
 	if sound ~= nil then wesnoth.audio.play(sound) end
 
-	wesnoth.show_dialog(dd, preshow, nil)
+	gui.show_dialog(transient_message_widget, preshow, nil)
 end
