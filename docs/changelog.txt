@@ -28,3 +28,4 @@ v1.0.6
 --> add story map tracking for scenarios and cutscenes
 --> using a pop-up window for help messages
 --> S2: a new hint message
+--> S1: fixed a bug reported by Konrad2
