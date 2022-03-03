@@ -35,3 +35,7 @@ v1.0.6
 v1.0.6.1
 --> Fixed shroud and fog for side 2 bug in SP 
 --> All side units are unrenamable now.
+
+v1.0.6.2
+--> Fixed custom advancements not showing
+    --> I sort of forgot to add them in...
