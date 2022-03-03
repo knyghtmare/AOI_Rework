@@ -42,3 +42,4 @@ v1.0.6.2
 --> S04: fixed replay save file not generating
 --> Added prompt to skip cutscenes
 --> S01: fixed an outdated defeat condition
+--> S02: +1 to maximum number of turns
