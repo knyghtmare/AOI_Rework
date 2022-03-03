@@ -2173,7 +2173,7 @@ msgstr ""
 
 #. [objective]: condition=lose
 #: AOI_Rework/macros/scenario-utils/utils.cfg:26
-msgid "Less than 9 villages are left standing"
+msgid "Less than 10 villages are left standing"
 msgstr ""
 
 #. [message]
