@@ -37,7 +37,6 @@ v1.0.6.1
 --> All side units are unrenamable now.
 
 v1.0.6.2
---> Fixed custom advancements not showing
-    --> I sort of forgot to add them in...
+--> Fixed custom advancements for orcs/goblins/saurians/ogres/trolls not showing
 --> "Turns Run Out" no longer shown in S4 objectives
 --> S04: fixed replay save file not generating
