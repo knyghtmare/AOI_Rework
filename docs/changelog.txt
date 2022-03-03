@@ -43,3 +43,4 @@ v1.0.6.2
 --> Added prompt to skip cutscenes
 --> S01: fixed an outdated defeat condition
 --> S02: +1 to maximum number of turns
+--> S03: +1 to maximum number of turns on CHALLENGING
