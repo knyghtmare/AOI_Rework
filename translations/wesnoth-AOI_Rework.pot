@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: https://bugs.wesnoth.org/\n"
-"POT-Creation-Date: 2022-02-14 08:27 UTC\n"
+"POT-Creation-Date: 2022-03-03 21:35 UTC\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -26,67 +26,71 @@ msgid "Enables Nightmare Mode for An Orcish Incursion: Rework. Might also work w
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:77
+#: AOI_Rework/_main.cfg:78
 msgid "An Orcish Incursion"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:77
+#: AOI_Rework/_main.cfg:78
 msgid ""
 "\n"
 "(The Rework)"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:79
+#: AOI_Rework/_main.cfg:80
 msgid "AOIRW"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:94
+#: AOI_Rework/_main.cfg:95
 msgid "<i>Being a drop of rain among few in the vanishing distance, I was looking for a way that would lead me to the fallen happiness … But I failed … I left those who I love without a chance for a new beginning … For a chance on my return and being one with her … I failed but … I chose … I chose to stand along those who can't fight alone … I decided to be a sun beam … Small fading beam forming a spherical golden shell of hope … I chose to be the Sun of Hope.</i> - Erlornas, Commander of the Branch of the Sun"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:94
+#: AOI_Rework/_main.cfg:95
 msgid ""
 "\n"
-"(4 scenarios)"
+"(4 scenarios, Intermediate Level)"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:100
+#: AOI_Rework/_main.cfg:98
 msgid "Fighter"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:100
-msgid "Story Mode"
+#: AOI_Rework/_main.cfg:98
+msgid "Normal Mode"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:102
+#: AOI_Rework/_main.cfg:100
 msgid "High Lord"
 msgstr ""
 
 #. [campaign]: id=An_Orcish_Incursion_Rework, type=hybrid
-#: AOI_Rework/_main.cfg:102
+#: AOI_Rework/_main.cfg:100
 msgid "Challenge Mode"
 msgstr ""
 
 #. [about]
-#: AOI_Rework/_main.cfg:105
+#: AOI_Rework/_main.cfg:103
 msgid "Latest Revision and Redesign"
 msgstr ""
 
 #. [about]
-#: AOI_Rework/_main.cfg:115
+#: AOI_Rework/_main.cfg:113
 msgid "Artwork and Graphics Design"
 msgstr ""
 
 #. [about]
-#: AOI_Rework/_main.cfg:139
+#: AOI_Rework/_main.cfg:137
 msgid "Code Contributions"
+msgstr ""
+
+#: AOI_Rework/lua/mp_xp_buff.lua:16
+msgid "+%d XP"
 msgstr ""
 
 #: AOI_Rework/lua/scenario_01.lua:8
@@ -401,19 +405,69 @@ msgstr ""
 msgid "<i>(He puts his golden helmet on his head and, holding his sword to his chest, he rushes fearlessly into impenetrable darkness carrying his thunderous battle hymn, which leads the Irdya Elves to fight one last time, and around them shone the golden glow of the pure light of the Wesmere heir's soul that will be their guide for the last time to fight the beasts born to hate)</i>"
 msgstr ""
 
+#. [transient_message]
+#: AOI_Rework/macros/_main.cfg:32
+msgid "Clairvoyance"
+msgstr ""
+
+#. [message]: speaker=narrator
+#: AOI_Rework/macros/_main.cfg:95
+msgid "Would you like to skip this cutscene?"
+msgstr ""
+
+#. [option]
+#: AOI_Rework/macros/_main.cfg:97
+msgid "No, I would like to watch it."
+msgstr ""
+
+#. [chat]: speaker=Update
+#: AOI_Rework/macros/_main.cfg:101
+msgid "Cutscene will be played."
+msgstr ""
+
+#. [option]
+#: AOI_Rework/macros/_main.cfg:110
+msgid "Yes, I would like to skip it."
+msgstr ""
+
+#. [chat]: speaker=Update
+#: AOI_Rework/macros/_main.cfg:114
+msgid "Cutscene has been skipped."
+msgstr ""
+
+#. [leadership]: id=inspire_aoirw
+#: AOI_Rework/macros/characters/abilities.cfg:10
+msgid "inspire"
+msgstr ""
+
+#. [leadership]: id=inspire_aoirw
+#: AOI_Rework/macros/characters/abilities.cfg:11
+msgid "female^inspire"
+msgstr ""
+
+#. [leadership]: id=inspire_aoirw
+#: AOI_Rework/macros/characters/abilities.cfg:12
+msgid "This unit can inspire own and allied units that are next to it, making them fight better. Adjacent own units of lower or equal level will deal 25% more damage plus 25% for each level they are below the inspiring unit."
+msgstr ""
+
+#. [leadership]: id=inspire_aoirw
+#: AOI_Rework/macros/characters/abilities.cfg:13
+msgid "The presence of this unit inspires own and allied units next to it to deal more damage in combat, though this only applies to units of lower or equal level."
+msgstr ""
+
 #: AOI_Rework/macros/characters/elves.cfg:8
 msgid "Lord Logalmier"
 msgstr ""
 
-#: AOI_Rework/macros/characters/elves.cfg:17
+#: AOI_Rework/macros/characters/elves.cfg:18
 msgid "Lady Dionli"
 msgstr ""
 
-#: AOI_Rework/macros/characters/elves.cfg:26
+#: AOI_Rework/macros/characters/elves.cfg:28
 msgid "Lord Aryad"
 msgstr ""
 
-#: AOI_Rework/macros/characters/elves.cfg:35
+#: AOI_Rework/macros/characters/elves.cfg:38
 msgid "Lord EL'Isomithir"
 msgstr ""
 
@@ -421,7 +475,7 @@ msgstr ""
 msgid "Erlornas"
 msgstr ""
 
-#: AOI_Rework/macros/characters/heroes.cfg:19
+#: AOI_Rework/macros/characters/heroes.cfg:20
 msgid "Sunllis"
 msgstr ""
 
@@ -429,544 +483,556 @@ msgstr ""
 msgid "Deros"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:33
+#: AOI_Rework/macros/characters/side.cfg:34
 msgid "Frileniell"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:47
+#: AOI_Rework/macros/characters/side.cfg:49
 msgid "Alorne"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:61
+#: AOI_Rework/macros/characters/side.cfg:64
 msgid "Nemea"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:75
+#: AOI_Rework/macros/characters/side.cfg:79
 msgid "Oghanes"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:89
+#: AOI_Rework/macros/characters/side.cfg:94
 msgid "Kalese"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:103
+#: AOI_Rework/macros/characters/side.cfg:109
 msgid "Yilde"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:117
+#: AOI_Rework/macros/characters/side.cfg:124
 msgid "Edliy"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:131
+#: AOI_Rework/macros/characters/side.cfg:139
 msgid "Asskeliol"
 msgstr ""
 
-#: AOI_Rework/macros/characters/side.cfg:145
+#: AOI_Rework/macros/characters/side.cfg:154
 msgid "Gleria"
 msgstr ""
 
+#: AOI_Rework/macros/characters/side.cfg:173
+msgid "Tailendos"
+msgstr ""
+
+#: AOI_Rework/macros/characters/side.cfg:177
+msgid "A strong elf, former protector of the Elven race who in the past wandered through the eastern lands. He comes from the forests of Lintanir, which delight with their beauty, and being a very sensitive person he can mourn even the greatest enemies."
+msgstr ""
+
+#: AOI_Rework/macros/characters/side.cfg:189
+msgid "Aranel"
+msgstr ""
+
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:80
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:81
 msgid "Take the swords in your right hands, but do not be afraid, comrades, because you will not see blood today, but only a modest presentation and the great change associated with it, because today we will restore the law of the past."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:82
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:83
 msgid "Are you sure we can make it? Whether a rebellion with such a handful can succeed? I myself sincerely doubt that all this rush is right."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:84
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:85
 msgid "Don't be afraid, along with the scouts, I spied day and night on the fort and the supposedly impregnable Ka'lian fortress. Truly powerful and full of holiness, it is a stronghold, but not righteous and mistaken in their pride elves deliberate there."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:86
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:87
 msgid "I don't know if everyone are well prepared, but I put my faith more in you than in my fears and I will repeat it again because I want to make sure before the rebellion that i have right that when the true heir is seated on the throne, the times of peace will come, and like the wind of the future, good blow to us, and the sorrow of mistakes will blur and hide in the shadow."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:88
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:89
 msgid "I have already told you this, Sunllis, I did not burn in my desires for great power, but only for the restoration of the righteousness of the governments that would serve our countrymen, and not only the great masters of huge provinces and strayers who took our hereditary lands."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:90
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:91
 msgid "People are not and will never be friendly to us, and in their hearts only darkness lurks and the deception of innocence wanted to creep into our hearts, it was a mistake to let them settle here, and now, after these eight years, these hateful creatures began to spread, just wait a little longer, and they will enter our borders and take our treasures by force."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:92
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:93
 msgid "I will not let them, even if it cost me my own sacrifice, that these hideous creatures would be a thorn to my people, and this whole king who has call himself Haldric, despite the foolish gift from all these Lords, picks up his nose, planning how expand his influence."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:94
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:95
 msgid "Humans, although they live much shorter, than us the elves, are able to outlive us by half with their plans, but not only they are a problem here, do you still remember stories about orcs and dark powers that were brought to our holy harbors eight years ago?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:96
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:97
 msgid "Orcs? They had long been crushed in the great battle of humans, it was they who had a duty to deal with them, and now these gloomy wild creatures serve only as fairy tales for naughty children."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:98
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:99
 msgid "... Anyway, it is not the time and we must act now, you can see a sign far away from our friends Deros and Frileniell that the way is clear."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:100
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:101
 msgid "Then it's time to go."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:102
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:103
 msgid "Follow me."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:142
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:143
 msgid "They enter the meeting room of three of the four noble lords who let one of their greatest enemies settled into the continent eight years ago."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:144
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:145
 msgid "So I see that another council has been started, what's this time, what are your plans? Maybe starting some war will suppress the unrest among the people, and a little conflict will add some faith in useless Lords?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:146
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:147
 msgid "How dare you enter these chambers uninvited! Only the introduction here are those who are chosen by the people to exercise their power."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:148
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:149
 msgid "You do not decide about it, and I do not even dare to pronounce your name, for I will bring disgrace upon myself as you are smeared with it."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:150
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:151
 msgid "You attack and insult by judging for some imaginary crimes! That's it, there is no place for you in these lands!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:152
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:153
 msgid "Imaginary? Do I have to remind everyone about how you won the victory in the North years ago?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:154
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:155
 msgid "End of this!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:156
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:157
 msgid "It was late fall and the conflict erupted unexpectedly."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:158
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:159
 msgid "Rumors were spreading that on the borders there were dwarven bandits and robbers invading the country, and our brave Lord led his army to a small town called the Silver Boulder because valuable metal was mined there since time immemorial, but the army almost did not have and it required protection from others."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:160
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:161
 msgid "The fight of the brave commander standing here lasted for a week, and the inhabitants once being our allies became fugitives, not enough good news, yet another conflict broke out, which was associated with further deaths! (He ended up hitting the table with his fist)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:162
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:163
 msgid "Baseless slander, this story is well known and needs no explanation."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:164
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:165
 msgid "I know more such stories because I have followed your movements for a long time, and the wicked deeds you have done are visible to the naked eye."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:166
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:167
 msgid "What are you going to do now? Make us leave the forests? Are you really incapable of comprehending your situation, heir of Wesmere?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:168
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:169
 msgid "You have never even presented a proof of your origin, and you have yourself made his son, and sometimes even a king."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:170
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:171
 msgid "It is truly regrettable to desire so desperately for power that is not yours."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:172
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:173
 msgid "I have never wanted it, but you attract me to it, because if someone poisons my own country, it is my duty to get rid of the pest!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:174
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:175
 msgid "You really are starting to bore me Erlornas, you hid your envy towards us for a long time, when we removed your father from office and appointed a new Lord."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:176
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:177
 msgid "Don't you dare to even mention his name because it would be an insult to me! You who sent him to a distant province, when he wanted to start introducing new fair rules."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:178
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:179
 msgid "He was mad and he wanted to restore the royal rule by shouting about some heir who you were supposed to be, and to confirm his words he only had the predictions of some witch banished years ago for spreading lies about the world, so do not embarrass yourself because of your naivety, child, and we will give you a chance again to go away."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:180
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:181
 msgid "No, this is taking too long, we have to deal finally with this revolutionary reprobate. And as you have already recalled the memory of the old hag who, before taking away her healthy name, Selite was called, see who we have here, the daughter and heir of her mother's madness. Perhaps you have something to say, my dear child. (Looks at Sunllis)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:182
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:183
 msgid "You are not worthy to hear anything from my lips, elf with reptilian gaze and dragon greed!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:184
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:185
 msgid "Erlornas, do what we have to do, and let's not look at these creatures even unworthy of my hatred."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:186
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:187
 msgid "Well, I wanted to have a little fun with them, but you are right to get rid of them right away. (He draws his sword pointing at one of his enemies)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:188
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:189
 msgid "You are surrounded and the support will not come, do you have something to defend yourself?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:190
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:191
 msgid "And what do you want to do? Kill me and the rest and sign your own sentence?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:192
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:193
 msgid "Get hold of yourself! Your father would never do that!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:194
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:195
 msgid "Unfortunately ... because you took this hope from him a long time ago, but I do not hesitate and I will not give up until I hear that you will leave the forests of my ancestors and that you will never come back!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:196
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:197
 msgid "We will never say something like that because we have always been guided by the truth and goodness for our nation!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:198
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:199
 msgid "I am waiting for reply!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:200
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:201
 msgid "Don't you dare to say anything if he wants power so much, let him show us his true side!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:202
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:203
 msgid "If you really count on support this is only a short dream and futile prayer."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:204
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:205
 msgid "We will not agree to these conditions!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:219
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:220
 msgid "Suddenly there was a clash of swords from the entrance to the castle, and the last of the lords entered the room."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:235
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:236
 msgid "Lower the sword or your faithful companions will lose their lives!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:237
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:238
 msgid "Several soldiers came in, wielding Wesmere descendant comrades under the sword, and immediately surrounded the rest of the rebels."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:250
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:251
 msgid "Forgive us, prince ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:263
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:264
 msgid "I say one last time, lower your sword or there will be blood today!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:265
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:266
 msgid "<i>(Nervous once, he looked one way and the other, assessing his chances, but not wanting to risk his friends lives, he finally lowered his sword)</i> You can talk and do what you want with me, but I will not leave my people in need! <i>(He stares menacingly into the eyes of the newly arrived liberator of the Lords, and the other, terrified for a moment, finally snatching the sword from his hand, said)</i>"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:267
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:268
 msgid "For high treason and an attempted of assassination on the three guardians of the race, you will face a trial that will solve your problem forever!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:306
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:307
 msgid "What do you intend to kill me? However, know that your anger is not terrible to me and even in the face of death I am not afraid to talk about goodness and things that you have not even dreamed of because, plunged in your nightmares, you didn't ever care for those who lived under you and sent them on numerous wars making from them only leaves thrown on the silent wind, which, falling, made a way for you to your own pride ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:308
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:309
 msgid "Despite the shackles and an almost sealed fate, you still have a tongue to tell your lies and spread hate around?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:310
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:311
 msgid "If I am spreading the lies and hatred around, what are you our great representatives?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:312
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:313
 msgid "Something you would never do, an elf in love with his ideals, which fraternize with madness, and complement with courage."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:314
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:315
 msgid "And what to do with you now Erlornas, our great heir to the throne that does not exist? Or should we now bow to you in tribute as a fallen monarch who, through bloodshed, wanted to make a difference?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:316
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:317
 msgid "No more jokes, it's time to agree on his fate as the leader of this whole rabble, which is the only one in this beautiful country governed by the law, gone mad and did not want to give us peace and finally like a mouse caught by its tail, pulled out let itself be caught and now its leader is kneeling in front of us, still chattering like a wild dog."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:318
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:319
 msgid "So far I spit on any of your accusations and I am not afraid because to be afraid you have to feel fear, not only contempt!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:320
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:321
 msgid "I can't even become angry when I hear these howls and whines, but I only feel sorry that such a black sheep yells at us here."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:322
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:323
 msgid "Well, now to the heart of the matter, what are the judgments you give?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:324
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:325
 msgid "For me, the death of him and that gang would be the best solution, but our law prohibits it, which is a pity."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:326
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:327
 msgid "Hold your anger, I think the best solution is simply exile."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:328
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:329
 msgid "But where to?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:330
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:331
 msgid "To the north as a prisoner with his company and with the chains in the wild."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:332
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:333
 msgid "To the north, I agree, but more kindly, at least for the time being, and leave them free in the care of the mountains and forests."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:334
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:335
 msgid "I like this solution, but what if they come back?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:336
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:337
 msgid "Then we will invent other recipes for him, but for now all agree?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:338
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:339
 msgid "The verdict was about to be approved, but a messenger burst into the chamber, who had just come down from the horse carrying the message, he stuttered terribly and only after a while he said to the Lords ears."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:372
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:373
 msgid "Savage beasts that follow animality and are no strangers to sinister deeds are coming!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:374
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:375
 msgid "What are you talking about here?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:376
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:377
 msgid "Monsters from overseas who fought with people and chased away a new place, they looked for and found in our poor havens!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:378
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:379
 msgid "Are you talking about ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:380
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:381
 msgid "Orcs, so bright lady! The demons of the night that have already appeared and enslaved the innocent, now they make their way through our green forests, sneaking in the fog and not sparing anyone!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:383
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:384
 msgid "By the gods of the most holy light! These creatures should have been dead a long time ago on the beaches of people, which are still red today from that memorable battle where they suffered failure."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:385
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:386
 msgid "What are we doing now? Can this news be trusted?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:387
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:388
 msgid "I saw and watched their arrows as I ran away in front of them to bring the message to you."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:389
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:390
 msgid "Really terrible news, so the war is calling, but it will take time to get troops here."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:391
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:392
 msgid "Has the enemy already invaded our territory?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:393
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:394
 msgid "No, it was only on the green borders that his first sightings were seen, but apparently among the elves and people one hears about the horde as far as our shores are still being heard."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:395
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:396
 msgid "Well, what now ... You can leave now, but wait nearby because we may still need your testimony."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:397
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:398
 msgid "(Turns to the other board members) Now what? The enemy took us by surprise, and we have no real defense here."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:399
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:400
 msgid "The nearest branches are in the eastern provinces after the recent riots caused by you know who."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:401
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:402
 msgid "It is not a coincidence that the nation is rebelling today, it is all a conspiracy planned for years, is it not Erlornas?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:403
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:404
 msgid "You can accuse me of whatever you like, but the truth is only known to me and I am not going to share it with someone like you."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:405
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:406
 msgid "Cheeky! I really have enough of it!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:407
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:408
 msgid "I guess I think I've come up with a simple solution to our problem here or even two, can I speak?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:409
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:410
 msgid "What do you mean?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:411
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:412
 msgid "We need to gather troops to save the whole defenseless country, the end of which is almost written in the face of evil that may meet at any moment, but ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:413
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:414
 msgid "Let the one who led to this redeem himself by going along with his so-called squad to stop the dark forces."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:415
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:416
 msgid "I disagree! You know well and I don't think I need to explain it to you, Lord, the law prohibits executions on convicts."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:417
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:418
 msgid "... But it's nothing like that, he and his group will get a month's punishment for their deeds, only one, and when they complete their task they will be able to return home, isn't that a good solution?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:419
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:420
 msgid "Hmm ... A month of fighting at the front is not an easy task and a feat worthy of whole songs, I agree to this proposal."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:421
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:422
 msgid "I don't mind either."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:423
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:424
 msgid "Since that is the will of the council, but I never thought that I would live to a day when the death sentences would be issued."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:425
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:426
 msgid "What does a condemned man have to say?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:427
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:428
 msgid "For the years of his deeds against us, he should not be given a voice, but let him speak."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:429
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:430
 msgid "I'm sure the heir to the throne of Wesmere, himself can't leave a people doomed to suffer on their own, can they?"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:431
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:432
 msgid "And that you will know! I will not leave them and help with my own body, death is not scary to me as long as I fight for what is right, because when the war goes on, the protectors of the nation stand on the battlefield!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:433
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:434
 msgid "So it's all settled, take him and hand them over the weapons, they leave in three days at the earliest. (Erlornas is escorted but a voice stops him)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:435
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:436
 msgid "And one more thing ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/cutscene-one.cfg:437
+#: AOI_Rework/macros/dialogue/cutscene-one.cfg:438
 msgid "There are warriors on the battlefield, not Lords."
 msgstr ""
 
@@ -976,152 +1042,162 @@ msgid "Scenario Help"
 msgstr ""
 
 #. [command]
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:13
+msgid "This is a survival scenario. Survive as long as you can or end it after the first wave as been beaten off. Your choice."
+msgstr ""
+
+#. [command]
 #: AOI_Rework/macros/dialogue/scenario-four.cfg:14
-msgid "Hello, welcome to the AOI:RW Help Chat. This is a one-way message to provide instructions for this particular level."
+msgid "Enemy waves will spawn from north, east and southern borders."
 msgstr ""
 
 #. [command]
 #: AOI_Rework/macros/dialogue/scenario-four.cfg:15
-msgid "This is a survival scenario. Survive as long as you can or end it after the first wave as been beaten off. Your choice. Enemy waves will spawn from north, east and southern borders."
-msgstr ""
-
-#. [command]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:16
 msgid "It is recommended to find a good defensive spot."
 msgstr ""
 
 #. [set_menu_item]: id=AOI_RW_S04_concede_defeat_option
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:24
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:23
 msgid "Concede Defeat"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:63
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:62
 msgid "Is that all of you? Weaklings, I feel sorry for every life that you have trampled, beasts made of cruelty and terror from the worst darkness of this world!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:65
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:64
 msgid "More ships are landing on the shore. I do not see the end of the blackness on the horizon"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:67
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:66
 msgid "They are blown by the very wind of doom, yet they still will not win, and anyone who dares to stand before me will join its predecessors now poisoning the sacred soil of Wesmere with their carcass!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:69
-msgid "Congrtulations on reaching the first milestone of this survival scenario. You may now end the campaign anytime via right-clicking the <b>Concede Defeat</b> option."
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:68
+msgid "Congratulations on reaching the first milestone of this survival scenario. You may now end the campaign anytime via right-clicking the <b>Concede Defeat</b> option."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:75
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:70
+msgid "If you do not see the Concede Defeat option, try killing one more enemy unit and checking again via right-clicking."
+msgstr ""
+
+#. [then]
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:72
+msgid "If you manage to survive to the end, you may get to see the final speech of Erlornas, the Prince of Wesmere."
+msgstr ""
+
+#. [then]
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:78
 msgid "I feel like I lose my strength from second to second, how my eyes are drenched in mist, like I myself get lost in the dark recesses of my mind being the deepest of the dungeons of our enemy ally!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:77
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:80
 msgid "It's only dark magic, I've experienced it many times before. It tried to force me to release the blade from my hand, but I did not allow it, tying it to the hilt. I will not allow myself to die, not when I still have a bit of strength to oppose destiny because our fate is free, we decide whether we will win or lose, no beast, no monster, and none lord of the forces of darkness decides that I will die today, that this very red day I will leave so easy those who count on my return, that I will not protect those who, fearing for their lives, cannot get up from knees, that I will not help those who suffer unjustly torments, that I will not avenge those who died in defense of those lands that became their grave!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:79
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:82
 msgid "Wait, you can't! You can barely stand on your own feet!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:81
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:84
 msgid "- Me? I feel the rays of the sun flowing through my veins, how my wounds heal from the light of the stars, how I dedicate each of these monsters' deaths to all the souls who died in this unnecessary war! Each slash, each fall of the servant of darkness protects someone, someone's existence. Is this the moment when I am more important or those who I want to keep care of? Should I run away to be happy, condemning others to sorrow and suffering? I will never do this. I will be the ruler that my kin never had. I will become a shield to take upon myself every blow that is to harm my subjects. I will get up after each blow, I will cross my sword with the greatest giants because I believe that this way I will allow others to rejoice, not to condemn them to slavery and death! Since I am the descendant of kings, I will die for those whom I have to defend. If I am a friend I will stand by my comrades' side until their last breath. If I really love, I will grant my family the peace without experiencing the hell of this war so that they can see another bright morning!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:83
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:86
 msgid "Prepare to attack! Swords high!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:91
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:94
 msgid "That's all? Really?"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:93
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:96
 msgid "How many of you, orcs and your pets are needed to bring me down? One uncrowned king exiled by his own kin? One by one you fall and why do you even try to fight if you die after a while? Why hurt others when you yourself cannot love and care for anything but only for your pride and desires? Why are you coming here if you will die anyway!? You mindless cattle!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:95
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:98
 msgid "Why are you taking the lives of others, you greedy beasts!? Why!? Answer me! Change yourselves! Why are you like this!?"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:97
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:100
 msgid "Calm down, the hustle and bustle of the fight has made you lose your sanity from fatigue, and your ... Your wounds are too deep to continue fighting! Our end is near, we must withdraw, regain strength ... I do not want to watch everyone dying here!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:99
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:102
 msgid "If that's what you want, go, run. I ... My legs refuse to obey anyway, even if I wanted to, I wouldn't be able to leave the battlefield alive, so at least save yourself, your life. I'll stop them for a while longer, so run fast, but ..."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:101
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:104
 msgid "I won't run away without you… Without you all! Don't you understand!? I do not wish to live alone! I crave those moments when I have all of you by my side, when I can laugh and cry! I want what I gained the day I met you!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:103
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:106
 msgid "But if you are to survive, you must leave me alone. Leave the past behind and move on."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:105
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:108
 msgid "I won't agree to that… I can't… I'll stay with you till the end."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:113
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:116
 msgid "You were born out of despair ... Out of evil ... You who destroy palaces, trample meadows, burn forests ... You who cannot appreciate true beauty! Run while you still can!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:115
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:118
 msgid "Do you still have the strength to stand by my side?"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:117
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:120
 msgid "Even though I feel like I'm slowly dying from bleeding wounds ... When I am unable to do anything and only thanks to some mysterious force, I still stand, but I am not going to give up and I will not until the very last moment."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:119
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:122
 msgid "The battle cries are over and my voice has lost its old melody, but the thought of dying at the hands of these creatures makes me furious and I can't fall amid these scorched fields by the once white harbor."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:121
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:124
 msgid "Together Sunllis, let's stand next to each other and, holding themselves, keep fighting and when one of us falls down, the other will hold them. Together as at the beginning. Together to carry each other through the barren fields. Together so as not to have to feel the pain of loneliness anymore ... Together till the end!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:123
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:126
 msgid "Together, we will stand for the last time to bring the light of dawn, a harbinger of the end of this huge storm that touched everyone with its drops. Together for everything we love and everyone we want to protect."
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:125
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:128
 msgid "- After every grey rain comes a rainbow and a ray of sunshine. Nothing lasts forever, sadness nor hate both always ends someday!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:136
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:139
 msgid "I feel like darkness sweeps over our world and a shadow of evil creeps into every house, every place. It is the end of free races. The enemy managed to prepare for the war."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-four.cfg:138
+#: AOI_Rework/macros/dialogue/scenario-four.cfg:141
 msgid "We failed?! I will not agree to this, but I feel my body slowly begin to wither from the terror sown like spoiled grain by these wicked ones."
 msgstr ""
 
@@ -1135,73 +1211,78 @@ msgstr ""
 msgid "No! You ruthless monsters, you don't have the right to be called a living creature, if killing is your consolation, but I will overcome you with eternal sleep within my sword!"
 msgstr ""
 
-#. [case]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:33
-msgid "Get up! Take courage in your hearts, run away or warm the sword in your hands, the beasts of the dark are coming!"
-msgstr ""
-
-#. [case]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:38
-msgid "Wake up elves for murder is coming, bloody swords of orcs from the west!"
-msgstr ""
-
-#. [case]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:43
-msgid "The end of dreams because the evil lurking from the old days has long been revived and has come from the shore!"
-msgstr ""
-
-#. [case]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:48
-msgid "If you still love and want to protect your lives, you need to fight, stand up to defend what is yours!"
+#. [event]
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:21
+msgid "Try to level up your characters in this scenario."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:58
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:31
+msgid "All units of Side 1 have been given some XP!"
+msgstr ""
+
+#. [event]
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:32
+msgid "Side 2 will get this bonus on their turn"
+msgstr ""
+
+#. [event]
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:40
+msgid "All units of Side 2 have been given some XP!"
+msgstr ""
+
+#. [event]
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:41
+msgid "This XP buff is only available to MP-mode players. Enjoy!"
+msgstr ""
+
+#. [event]
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:50
 msgid "At night, these monsters are stronger, defend themselves, my comrades, or shoot your arrows from the woods with guerrilla warfare!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:64
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:56
 msgid "Daylight is their enemy, now, as long as we have no shortage of strength and we still have the will to fight!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:79
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:71
 msgid "Agh...! What a goddamn thing!? Burns ...!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:82
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:74
 msgid "Let the light of the stars of the far sky shorten your life and send you to a world for those like you!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:97
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:89
 msgid "You long-eared imps…! But do not be deceived ... There are many more of us than you think ..."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:99
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:91
 msgid "Still able to make your pointless sentences? Let him return to the mud from which he was made!"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:112
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:104
 msgid "You ... (Erlornas shortens his head)"
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:114
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:106
 msgid "The cattle that left their herd have already ended this too long reconnaissance."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:121
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:113
 msgid "We waited too long to cut off the reptile's head, and now in a panic before us he blew horn to summon others for a wild chase."
 msgstr ""
 
 #. [event]
-#: AOI_Rework/macros/dialogue/scenario-one.cfg:123
+#: AOI_Rework/macros/dialogue/scenario-one.cfg:115
 msgid "We cannot take any further losses of the innocent civilians who now will face the inevitable death at the hands of these dirty creatures!"
 msgstr ""
 
@@ -1700,6 +1781,26 @@ msgstr ""
 msgid "You may find some assistance from nearby elves if you investigate elven villages."
 msgstr ""
 
+#. [case]
+#: AOI_Rework/macros/dialogue/scenario-two.cfg:61
+msgid "Get up! Take courage in your hearts, run away or warm the sword in your hands, the beasts of the dark are coming!"
+msgstr ""
+
+#. [case]
+#: AOI_Rework/macros/dialogue/scenario-two.cfg:66
+msgid "Wake up elves for murder is coming, bloody swords of orcs from the west!"
+msgstr ""
+
+#. [case]
+#: AOI_Rework/macros/dialogue/scenario-two.cfg:71
+msgid "The end of dreams because the evil lurking from the old days has long been revived and has come from the shore!"
+msgstr ""
+
+#. [case]
+#: AOI_Rework/macros/dialogue/scenario-two.cfg:76
+msgid "If you still love and want to protect your lives, you need to fight, stand up to defend what is yours!"
+msgstr ""
+
 #: AOI_Rework/macros/scenario-utils/character-deaths.cfg:17
 msgid "My life path so far is blurring before my eyes ... Beloved, I have finally seen you again ... (He has tears in eyes)"
 msgstr ""
@@ -1788,11 +1889,27 @@ msgstr ""
 msgid "Deros! This world is now ravaged by dark powers, and you fought along us for another day for everyone around you, but know that someday it will be like it used to be, and even more beautiful!"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/character-deaths.cfg:87
-msgid "Really? I ... am I really falling? But I can't, I have to stop the black marches ... Please forgive me."
+#: AOI_Rework/macros/scenario-utils/character-deaths.cfg:83
+msgid "I am leaving to be remembered as a hero who has fallen far beyond the borders in the moment of glory. Even though I would like to remain by your side, I cannot get back on my feet any more."
+msgstr ""
+
+#: AOI_Rework/macros/scenario-utils/character-deaths.cfg:85
+msgid "Tailendos! Friend, don't leave us so soon. Not when we're so close to victory, but I promise you that your death will not be in vain."
+msgstr ""
+
+#: AOI_Rework/macros/scenario-utils/character-deaths.cfg:89
+msgid "I could have lie saying my last words, but I'm going to tell the truth. I feel joy that I am finally dying and that I have at least a little redeemed my guilt for the crime I have committed."
 msgstr ""
 
 #: AOI_Rework/macros/scenario-utils/character-deaths.cfg:91
+msgid "Aranel! I have never known a person more honourable than you. You were our friend and a wall separating us from the blows of our enemies. Please, find solace in death."
+msgstr ""
+
+#: AOI_Rework/macros/scenario-utils/character-deaths.cfg:99
+msgid "Really? I ... am I really falling? But I can't, I have to stop the black marches ... Please forgive me."
+msgstr ""
+
+#: AOI_Rework/macros/scenario-utils/character-deaths.cfg:103
 msgid "- I don't feel anything, pain or suffering anymore ... It seems to me as if I say goodbye to all of you without words, but with tears ... Farewell."
 msgstr ""
 
@@ -1813,18 +1930,20 @@ msgid "I will never agree with your death, losing you means my end!"
 msgstr ""
 
 #. [side]
-#: AOI_Rework/macros/scenario-utils/side-utils.cfg:50
-#: AOI_Rework/macros/scenario-utils/side-utils.cfg:71
-#: AOI_Rework/macros/scenario-utils/side-utils.cfg:159
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:51
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:69
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:95
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:115
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:218
 msgid "Wesmere"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/side-utils.cfg:152
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:211
 msgid "Invaders"
 msgstr ""
 
 #. [side]
-#: AOI_Rework/macros/scenario-utils/side-utils.cfg:233
+#: AOI_Rework/macros/scenario-utils/side-utils.cfg:290
 msgid "Prisoners"
 msgstr ""
 
@@ -2035,15 +2154,15 @@ msgstr ""
 
 #. [objective]: condition=lose
 #: AOI_Rework/macros/scenario-utils/utils.cfg:12
-#: AOI_Rework/macros/scenario-utils/utils.cfg:297
-#: AOI_Rework/macros/scenario-utils/utils.cfg:337
+#: AOI_Rework/macros/scenario-utils/utils.cfg:302
+#: AOI_Rework/macros/scenario-utils/utils.cfg:342
 msgid "Death of Erlornas"
 msgstr ""
 
 #. [objective]: condition=lose
 #: AOI_Rework/macros/scenario-utils/utils.cfg:16
-#: AOI_Rework/macros/scenario-utils/utils.cfg:301
-#: AOI_Rework/macros/scenario-utils/utils.cfg:341
+#: AOI_Rework/macros/scenario-utils/utils.cfg:306
+#: AOI_Rework/macros/scenario-utils/utils.cfg:346
 msgid "Death of Sunllis"
 msgstr ""
 
@@ -2062,105 +2181,120 @@ msgstr ""
 msgid "Leave nothing standing! Burn them alive with their villages!"
 msgstr ""
 
+#. [event]
+#: AOI_Rework/macros/scenario-utils/utils.cfg:121
+msgid "The invaders will not ravage villages once their leader is dead."
+msgstr ""
+
 #. [message]: speaker=Erlornas
-#: AOI_Rework/macros/scenario-utils/utils.cfg:176
+#: AOI_Rework/macros/scenario-utils/utils.cfg:178
 msgid "We could not protect enough of our people. They have been burned alive with their villages!"
 msgstr ""
 
 #. [message]: speaker=Sunllis
-#: AOI_Rework/macros/scenario-utils/utils.cfg:181
+#: AOI_Rework/macros/scenario-utils/utils.cfg:183
 msgid "We have failed to protect our people!"
 msgstr ""
 
 #. [event]: id=summon_aid_event_start
-#: AOI_Rework/macros/scenario-utils/utils.cfg:201
+#: AOI_Rework/macros/scenario-utils/utils.cfg:203
 msgid "Damn it! We are surrounded by these beasts, and there is no help anywhere, neither see nor hear!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:208
+#: AOI_Rework/macros/scenario-utils/utils.cfg:210
 msgid "I feel the pain of the spirits of the forest and nature, who, out of despair for the burning wood, from the wounds inflicted on it, and the lives of dear priestesses, find hope to fight their enemy along with you!"
 msgstr ""
 
 #. [then]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:210
+#: AOI_Rework/macros/scenario-utils/utils.cfg:212
 msgid "(Begins to meditate)"
 msgstr ""
 
 #. [else]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:213
+#: AOI_Rework/macros/scenario-utils/utils.cfg:215
 msgid "I feel the pain of the spirits of the forest and nature, who, out of despair for the burning wood, from the wounds inflicted on it, and the lives of dear priestesses, find hope to fight their enemy along with you! (Begins to mediate)"
 msgstr ""
 
 #. [event]: id=summon_aid_event_start
-#: AOI_Rework/macros/scenario-utils/utils.cfg:217
+#: AOI_Rework/macros/scenario-utils/utils.cfg:219
 msgid "We must protect her, keep these monsters away and do not even dare go one step away, keeping watch over her!"
 msgstr ""
 
+#. [event]: id=summon_aid_event_start
+#: AOI_Rework/macros/scenario-utils/utils.cfg:221
+msgid "Sunllis must not move/attack/be attacked for 3 turns."
+msgstr ""
+
+#. [event]: id=summon_aid_event_start
+#: AOI_Rework/macros/scenario-utils/utils.cfg:222
+msgid "If she is, she will have to start over."
+msgstr ""
+
 #. [floating_text]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:244
+#: AOI_Rework/macros/scenario-utils/utils.cfg:249
 msgid "Chanting"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:273
+#: AOI_Rework/macros/scenario-utils/utils.cfg:278
 msgid "What are those noises, was there can be any support for these soft little ones coming!?"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:275
+#: AOI_Rework/macros/scenario-utils/utils.cfg:280
 msgid "No ... It rumbles in my ears ...!"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:277
+#: AOI_Rework/macros/scenario-utils/utils.cfg:282
 msgid "And I see the treetops moving towards us, carrying white fire with them!"
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:279
+#: AOI_Rework/macros/scenario-utils/utils.cfg:284
 msgid "The spirits have responded to our call and want to show their sorrow to the orcs who, in the panic, are already looking for escape."
 msgstr ""
 
 #. [event]: id=summon_aid_event_finale
-#: AOI_Rework/macros/scenario-utils/utils.cfg:281
+#: AOI_Rework/macros/scenario-utils/utils.cfg:286
 msgid "Now we will launch the final assault on the wicked enemy, let their hearts tremble!"
 msgstr ""
 
 #. [objective]: condition=win
-#: AOI_Rework/macros/scenario-utils/utils.cfg:293
+#: AOI_Rework/macros/scenario-utils/utils.cfg:298
 msgid "Defeat all enemy leaders"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/utils.cfg:313
+#: AOI_Rework/macros/scenario-utils/utils.cfg:318
 msgid "You cursed elf ... (Tries to catch his killer)"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/utils.cfg:317
+#: AOI_Rework/macros/scenario-utils/utils.cfg:322
 msgid "My eyes are flooded with black ... I don't want to die! No...!"
 msgstr ""
 
-#: AOI_Rework/macros/scenario-utils/utils.cfg:321
+#: AOI_Rework/macros/scenario-utils/utils.cfg:326
 msgid "I am dying surrounded by devilish light ...!"
 msgstr ""
 
 #. [objective]: condition=win
-#: AOI_Rework/macros/scenario-utils/utils.cfg:333
+#: AOI_Rework/macros/scenario-utils/utils.cfg:338
 msgid "Find and defeat the High Warlord"
 msgstr ""
 
 #. [note]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:347
+#: AOI_Rework/macros/scenario-utils/utils.cfg:352
 msgid "Try to free some prisoners to get them as allies"
 msgstr ""
 
 #. [objective]: condition=win
-#: AOI_Rework/macros/scenario-utils/utils.cfg:364
+#: AOI_Rework/macros/scenario-utils/utils.cfg:369
 msgid "Survive as long as possible."
 msgstr ""
 
 #. [note]
-#: AOI_Rework/macros/scenario-utils/utils.cfg:369
+#: AOI_Rework/macros/scenario-utils/utils.cfg:374
 msgid "Right-Click to view a Hint"
 msgstr ""
 
@@ -2215,219 +2349,219 @@ msgid "Finally, after many years of planning, spying, and gaining valuable infor
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:44
+#: AOI_Rework/macros/story-text/story-txt.cfg:45
 msgid "Feeling the weight of his burden, Erlornas, after leaving the palace, joined with his companions of misery."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:46
+#: AOI_Rework/macros/story-text/story-txt.cfg:47
 msgid "Nobody was bloody hurt after these events, but Erlornas saw signs of beating on the faces of some of them. Even when he was walking at the side of Sunllis accidentally saw a fresh bruise on her shoulder, which after a while, as soon as she noticed her friend's eye, quickly covered it with a nervous face. She had no intention of worrying and deceiving the elven heir out of the way, but she was no longer able to hide it like the others."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:48
+#: AOI_Rework/macros/story-text/story-txt.cfg:49
 msgid "Erlornas felt the pain walking by their side, being what he gave them these blows by moving on by impulse and the moment which he sincerely regretted, he could not accept it."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:50
-msgid "When, together with his squad made of twelve friends that joined him in a difficult time of life, he told in the unfortunate clearing the conditions of their freedom as well as the task and duty they must fulfill in order to be able to return to their former life. Everyone fell silent."
+#: AOI_Rework/macros/story-text/story-txt.cfg:51
+msgid "When, together with his squad made of eleven friends that joined him in a difficult time of life, he told in the unfortunate clearing the conditions of their freedom as well as the task and duty they must fulfill in order to be able to return to their former life. Everyone fell silent."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:52
+#: AOI_Rework/macros/story-text/story-txt.cfg:53
 msgid "The young prince, who as an ordinary, and even poverty and rejection, suffering from his youth, thought that it was because of him that he condemned his companions to ruin, because he would take everyone to the grave by speaking for all of them."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:54
+#: AOI_Rework/macros/story-text/story-txt.cfg:55
 msgid "However, it was not so, because those who stood on his side knew very well that they did not want their old lives again and never even wanted to, and that serving and friendship with a real king was their salvation."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:56
+#: AOI_Rework/macros/story-text/story-txt.cfg:57
 msgid "Previously mentioned in the story Deros and Frileniell, the two brothers who never had a home and were thrown in the woods by their settlement, they wandered from their childhood, and those who gained shelter with Erlornas. Oghanes, the elven warrior, the eldest of the company, his wife died of an unknown disease, and because others feared the plague, she was sentenced to death without even trying to find a medicine."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:58
+#: AOI_Rework/macros/story-text/story-txt.cfg:59
 msgid "Alorne priestess who saved many lives and wanted to protect everyone. She tended carefully and the spirits of the forest summoned her, who rewarded her with healing power, for which she was thrown out of her teachings in the chapel as she was possessed with evil. Nemea, gifted in magic, never had parents, she had trod the hard path all her life, she was to be taken to the army, but she never wanted to take part in the fight, she supported Erlornas ideals of peace in the forests."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:60
+#: AOI_Rework/macros/story-text/story-txt.cfg:61
 msgid "Yilde and Edliy, the twin sisters that shared one soul, and whose happiness and pain were equal. They both became great hunters from birth, and their tracking skills became legendary."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:62
+#: AOI_Rework/macros/story-text/story-txt.cfg:63
 msgid "Asskeliol and Gleria, two trained riders who, together with their horses, moved quietly through the forests. They were called wind because when the news broke up, they could carry it day and night."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:64
-msgid "Kalese, a master of the sword, who never escaped from combat, but was unable to fight without wounds inflicting the enemy, was caught by the palace guard, but by the former army general trained in fencing on serious combat, was second to none. The last Tailendos, which was accurate and with the eyes of a hawk, was able to launch a chasing and paralyzing arrow into the sky. He never had his master, and he was like a brother with his bow."
+#: AOI_Rework/macros/story-text/story-txt.cfg:65
+msgid "Kalese, a master of the sword, who never escaped from combat, but was unable to fight without wounds inflicting the enemy, was caught by the palace guard, but by the former army general trained in fencing on serious combat, was second to none."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:66
+#: AOI_Rework/macros/story-text/story-txt.cfg:67
 msgid "They all formed one branch, which they had never called a name before, because as they believed only actions can give it and when they do what they always want, they will rest on the laurels as those who will find their real name."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:68
+#: AOI_Rework/macros/story-text/story-txt.cfg:69
 msgid "So far, they were only called rebels, partisans or nameless warriors who fight for justice and have left their home forever."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:70
+#: AOI_Rework/macros/story-text/story-txt.cfg:71
 msgid "At the end of the day they all parted and on the third sunrise, having to set themselves up in front of the city gate to set out on their mission, they went to settle unfinished business."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:72
+#: AOI_Rework/macros/story-text/story-txt.cfg:73
 msgid "At the end, Erlornas and Sunllis stayed while discussing the last details of the irretrievable expedition. They were not afraid of it, even though their end had already been written, and the destiny, once set, for changes is difficult to count, and only through strong will and renunciation of one's true ideals can it be changed."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:74
+#: AOI_Rework/macros/story-text/story-txt.cfg:75
 msgid "It took the day of the journey for the heir of Wesmere to find himself at the gates of his born city, where father and mother had already died under the linden trees, and still a few friendly souls were live."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:76
+#: AOI_Rework/macros/story-text/story-txt.cfg:77
 msgid "As soon as he entered the old yard of his house, which was strewn with golden dandelions, snow daisies and red poppies, he felt at peace. This place was given him a respite from time immemorial, suddenly he heard a friendly voice, and when he turned, he saw the face of his chosen one."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:78
+#: AOI_Rework/macros/story-text/story-txt.cfg:79
 msgid "His most precious treasure lived here and enjoyed her life. She was called his lady of the heart, and her name was Reilen. She had already heard the terrified news, it was possible to hear it over the entire vast lands covered with the first forest. The prince, who with his company, after an unsuccessful attack on a terrible fate, was condemned, and the riots among people began to be full, where fights between the elves in the face of the longed-for hope took place, but the truth was sad for those who abandoned their homes to support the bloodless revolution because the changes would not will follow."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:80
+#: AOI_Rework/macros/story-text/story-txt.cfg:81
 msgid "She fell into his arms in tears and did not want to forgive him that he was leaving and that he wanted to abandon her, but Erlornas only tenderly hugged her and shed his silver tears because he didn't want to leave and he never wanted to leave her alone forever. He loved her sincerely for many years and he never even thought to stop and only confirmed it by taking her in his arms and whispering sweet words that soon gave her relief."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:82
+#: AOI_Rework/macros/story-text/story-txt.cfg:83
 msgid "The fear of his fiancé and future wife was immense, and the fact that she carried their common offspring in her womb deepened it even more. Erlornas, the future father and lover, had his fate like as the water into which the stone was thrown, but he did not want to live with fear and decided to enjoy every possible moment with her, so that later, in the face of death, he could remember that his life was not only a failed fight, but also a great happiness, which he did not deny himself."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:84
+#: AOI_Rework/macros/story-text/story-txt.cfg:85
 msgid "They spent their last night with each other talking almost constantly, so that the parting would not hurt so much, that they would not leave with full regret, but only a small part of it. Their love and feeling almost incomprehensible to people, not one song could hardly describe, but as it often happens with beautiful melodies, they finally find their ending and longed for eternity, which they would never get."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:86
+#: AOI_Rework/macros/story-text/story-txt.cfg:87
 msgid "The next morning, when Erlornas stood behind the city gate, holding Reilen hand on the other side, he knelt down and kissed it, later he said goodbye to the unborn child, and finally stood upright and sent his last romantic gaze to his beloved, kissing her on her pink lips. like wild rose petals with their color that almost always charmed him and, looking into her blue eyes, he gently released her hand from his, but she caught it and gave him her most precious gift for parting, and at the same time held her crystal tears in eyes. A silver ring with a white diamond that was supposed to be their wedding seal during the day of reunification. Putting her kiss on it, she put a ring on her partner's finger and, as if taking her vow, finally let out tears before the final leave. Erlornas thanked her for it and, wanting to reciprocate her courage and love, by accepting her confession, he put an identical ring on her finger. Eventually, turning his head away, he didn't look back again, not wanting to change his mind, but very much desired it."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:88
+#: AOI_Rework/macros/story-text/story-txt.cfg:89
 msgid "He met his companions of misfortune, and they set out on their way together, with their gear at side, the prince did not dare to speak, and the mournful faces of the traveler showed a grimace of parting. Not only with family and friends, but also with the land, because they will die in areas unknown to them all."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:90
+#: AOI_Rework/macros/story-text/story-txt.cfg:91
 msgid "Sunllis never had her husband or lover, but as the daughter of the oracle in Erlornas she saw it. The pain that he hides within himself, something that does not allow him to go to death, but only the suffering on this path frees him. It was love, she knew, but she did not have the courage and words to improve her friend's mood, because when they set off for their death, the good of words ended."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:92
+#: AOI_Rework/macros/story-text/story-txt.cfg:93
 msgid "Their march through the green forests lasted two days, when on the third morning they saw creatures that were children of darkness, and which wore dirty steel helmets and wolves made their mounts."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:98
+#: AOI_Rework/macros/story-text/story-txt.cfg:100
 msgid "The group of daredevils moved further towards the distant sea, which many lands, as it was discovered eight years ago, were hiding and from where mysterious people and wild beasts came to sow destruction and fear in the hearts of peaceful creatures."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:100
+#: AOI_Rework/macros/story-text/story-txt.cfg:102
 msgid "Every day the company traveled across the border of Wesmere, there were empty houses or burned apartments everywhere, often with dead elves dragged out and killed with cold blood. Erlornas chose this path that followed in order to meet as many enemies as possible, but a few days passed and the bloodthirsty race was not visible on the horizon."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:102
+#: AOI_Rework/macros/story-text/story-txt.cfg:104
 msgid "The companions, whenever they found any body of their countryman, buried it in a grave and bid farewell with small ceremonies, because their way was long and dangerous, and because they saw death around them, fear touched them, but they did not let him restrain themselves."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:104
+#: AOI_Rework/macros/story-text/story-txt.cfg:106
 msgid "Walking through green forest much stained with scarlet and poured out cups of young elves lives, whose faces they had often known and regretted, sometimes they met several opponents, bigger or smaller, robbing houses and bodies from valuables, but the branch did not spare any of them. Erlornas, despite the fact that he was strongly affected by what he had seen in the last few days and mentally distracted more than once, was unable to put his thoughts in order, and when the innocent body was once again missed even tear of regret did not flow on his cheek, the war made it out of him."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:106
+#: AOI_Rework/macros/story-text/story-txt.cfg:108
 msgid "Sunllis was afraid for her friend, but she could not comfort him at all, and as soon as her eyes met the ring, she frightened did not want to reminded him of separation because when the sadness intensified every day which the dam broke what stopped it suddenly spills over the whole body, it will not let him go any further."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:108
+#: AOI_Rework/macros/story-text/story-txt.cfg:110
 msgid "For travelers and a company who tried to save every life and protect those who can't hold the sword in their hand, the only respite and salvation for them so far was the wretched smile on the sad face summoned by the golden sun and the stars in the night sky, which by the darkness, still unpolluted and pure with light, carried warmth and willingness to continue the journey of protectors."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:110
+#: AOI_Rework/macros/story-text/story-txt.cfg:112
 msgid "One day, when the trail of the wolves faded into the traces of the enemy's heavy infantry. The heir of Wesmere prepared his sword, smelling the charred earth and seeing the remains of long-lived trees burnt. This day was supposed to be one of the most difficult for elves in their lives, what will be called the branch of the sun one day."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:116
+#: AOI_Rework/macros/story-text/story-txt.cfg:119
 msgid "After fighting the three heartless orcs full of cruelty, from whom Erlornas almost did not get infected with madness and darkness, to end up just like his enemies in the shadow world, he moved on through the meadows of close borders."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:118
+#: AOI_Rework/macros/story-text/story-txt.cfg:121
 msgid "The young prince felt inside that courage had returned to him, that his friend had led him out of mistake, but deeper inside himself, the still suppressed grief was looking for solace, and the poor barrier protecting against the deluge of depression, sadness and the ever more impending death threat was breaking from one moment to another."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:120
+#: AOI_Rework/macros/story-text/story-txt.cfg:123
 msgid "The skirmishes intensified, and new wounds and scars on the bodies and armors of the knights, now carrying the sunlight illuminating their path from battle to battle, adorned them with increasing slowly triggering weariness, but they nevertheless continued on."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:122
+#: AOI_Rework/macros/story-text/story-txt.cfg:125
 msgid "The days passed, and the company itself, feeling that their mission to the Lords of Wesmere was coming to an end, thought about returning to their homes, places where they grew and dreamed of great adventures, but deeply felt that if they returned, they would refuse the live and help for those who need it most right now. No matter who the elf, dwarf, or human, all life counted the same, especially after what the warriors of Prince Wesmere's branch had seen fighting over the once remarkable magical in old days places now ruined, burned and abandoned."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:124
+#: AOI_Rework/macros/story-text/story-txt.cfg:127
 msgid "Erlornas himself was no longer seeing the difference in belonging to any of the races. Because in the face of war and the death of many, these concepts begin to lose their meaning, and only life itself matters."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:126
+#: AOI_Rework/macros/story-text/story-txt.cfg:129
 msgid "Traversing the last forest groves owned by prince through blood and right, the elven inhabitants of the warmth of ancient woods under the sky composed of stars and rays of happiness awaited a gloomy sight of dead hills defending and separating the evergreen kingdom from the western sea."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:135
+#: AOI_Rework/macros/story-text/story-txt.cfg:139
 msgid "After this hard fight the heir of Wesmere company sets up their last camp near a hill looking out for the wide sea, but no elf dares to climb it, and hidden under the cover of dark night, they remain silent, remembering the faces of their loved ones and those who are no longer with them."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:143
+#: AOI_Rework/macros/story-text/story-txt.cfg:148
 msgid "Erlornas squad stopped the orc invasion for about month, killing hundreds of enemies born of darkness, but finally stood against the impossible, but the Elves, although forbidden by their law to mourn the exiles, composed a long song about the Elves, sons and daughters of light, the ward called, the branch of the Sun, or the branch of the son of Wesmere, who, like a mountain avalanche, destroyed the backwoods of enemies falling to the ground, never to rise again."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:145
+#: AOI_Rework/macros/story-text/story-txt.cfg:150
 msgid "It is said that there are rumors around the world that some elven poets are spreading a forgotten elven legend about the heroes who set out on a certain mission ... A mission by some called An Orcish Incursion."
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:147
+#: AOI_Rework/macros/story-text/story-txt.cfg:152
 msgid ""
 "<i>'Once, one day, the old day\n"
 "        I saw hills full of trees, clearings full of meadows, and among them warriors, warriors surrounded by the hope of the sun of inner heat, they did not say their name, but their leader stretched out his hand to me, and he was called Erlornas and he was proud, but with a beautiful interior, and when in I was entering friendly borders, I heard his battle hymn, and when I stood far away, I saw a light glow looming in the distance, pure as if made of gold, it was the beginning of the dawn of hope which they gave us and which we will never pay back to them until the last leaf day ... '</i> - Unknown Rescued by Erlornas Poet"
 msgstr ""
 
 #. [story]
-#: AOI_Rework/macros/story-text/story-txt.cfg:150
+#: AOI_Rework/macros/story-text/story-txt.cfg:155
 msgid "<i>'Lonely they were abandoned, living in the shadow of their lives, they lived for others, their light shone for us, Hope of good for us, the last bright ray in the dark sky, but it was enough to bring us freedom and peace, it was them and not anyone else who gave us this beautiful life, thanking them, we will remember, because from now on they are with us forever, although they are banished we remembered, they gave us this beautifull live ...'</i> - Fragment of a Song about the Branch of the Sun"
 msgstr ""
 
@@ -2576,6 +2710,48 @@ msgstr ""
 #. [attack]: type=blade
 #: AOI_Rework/units/horde/Stalker.cfg:30
 msgid "knife"
+msgstr ""
+
+#. [unit_type]: id=Elvish Captain AOIRW, race=elf
+#: AOI_Rework/units/sylvans/Custom_Captain.cfg:4
+msgid "Elvish Captain"
+msgstr ""
+
+#. [unit_type]: id=Elvish Captain AOIRW, race=elf
+#: AOI_Rework/units/sylvans/Custom_Captain.cfg:26
+msgid "Elvish captains usually command patrols and garrisons that stand guard over the vast forests in elvish territory. Unlike leaders from other races, they are most proficient at navigating small skirmishes rather than large-scale battles, and are especially skilled at defensive maneuvering. Captains typically lead small units that remain together for extended periods of time, allowing them to personally mentor and befriend their troops. They are often observed to lead through camaraderie and amicability, but still command great respect from their kin."
+msgstr ""
+
+#. [attack]: type=blade
+#: AOI_Rework/units/sylvans/Custom_Captain.cfg:35
+#: AOI_Rework/units/sylvans/Custom_Marshal.cfg:40
+msgid "sword"
+msgstr ""
+
+#. [attack]: type=pierce
+#: AOI_Rework/units/sylvans/Custom_Captain.cfg:44
+#: AOI_Rework/units/sylvans/Custom_Marshal.cfg:49
+msgid "bow"
+msgstr ""
+
+#. [unit_type]: id=Elvish Marshal AOIRW, race=elf
+#: AOI_Rework/units/sylvans/Custom_Marshal.cfg:4
+msgid "Elvish Marshal"
+msgstr ""
+
+#. [unit_type]: id=Elvish Marshal AOIRW, race=elf
+#: AOI_Rework/units/sylvans/Custom_Marshal.cfg:27
+msgid "Elves are not often the instigators of open war, but will not shy away when the time comes to do battle. To this end, they maintain a small number of strategically-minded marshals at all times. Selected from the most talented patrol captains, these commanders undergo extensive training in various military styles, including those of the humans and orcs. They are unorthodox, but brilliant strategists who excel at breaking down large battlefronts into smaller skirmishes, transforming ordinary campaigns into dispersed guerrilla warfare. Engaging elves in their own homes is a daunting task for any invasion force, precisely because of the skillful maneuvering of the marshals who are entrusted with the protection of their people."
+msgstr ""
+
+#. [unit_type]: id=Elvish Defender, race=elf
+#: AOI_Rework/units/sylvans/Elvish_Defender.cfg:5
+msgid "Elvish Defender"
+msgstr ""
+
+#. [unit_type]: id=Elvish Defender, race=elf
+#: AOI_Rework/units/sylvans/Elvish_Defender.cfg:24
+msgid "Aranel is the hero of the wars with the dwarves in the times before humans came. He always walks with a black blindfold because once as a soldier, he was forced to see the execution on his kin and because of that he never opened his eyes again."
 msgstr ""
 
 #. [unit_type]: id=Elvish Poet, race=elf
